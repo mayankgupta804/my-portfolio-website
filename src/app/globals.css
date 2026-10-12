@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --font-space-grotesk: "Space Grotesk", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-jetbrains-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-orbitron: "Orbitron", "Space Grotesk", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #05070d;
+  color: #f4f4f5;
+  overflow-x: hidden;
+}
+
+/* Custom subtle scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #070910;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 240, 255, 0.4);
+}
+
+/* Blueprint grid background utility */
+.bg-blueprint-grid {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(59, 130, 246, 0.14) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(59, 130, 246, 0.14) 1px, transparent 1px);
+}
+
+/* Orbital dot matrix background utility */
+.bg-orbital-grid {
+  background-size: 32px 32px;
+  background-image: radial-gradient(rgba(0, 240, 255, 0.18) 1px, transparent 1px);
+}
+
+/* Industrial carbon texture utility */
+.bg-industrial-grid {
+  background-size: 20px 20px;
+  background-image: 
+    linear-gradient(45deg, rgba(255, 69, 0, 0.05) 25%, transparent 25%),
+    linear-gradient(-45deg, rgba(255, 69, 0, 0.05) 25%, transparent 25%);
+}
