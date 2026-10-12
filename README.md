@@ -6,6 +6,7 @@
 *Senior Software Engineer • Distributed Systems • Go & Elixir • Microservices on Linux*
 
 [![Live Website](https://img.shields.io/badge/Live-mayankgupta.space-00F0FF?style=for-the-badge&logo=vercel&logoColor=black)](https://mayankgupta.space)
+[![CI Status](https://img.shields.io/github/actions/workflow/status/mayankgupta804/my-portfolio-website/ci.yml?branch=main&style=for-the-badge&logo=githubactions&logoColor=white&label=CI)](https://github.com/mayankgupta804/my-portfolio-website/actions/workflows/ci.yml)
 [![Next.js](https://img.shields.io/badge/Next.js-14.2-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
